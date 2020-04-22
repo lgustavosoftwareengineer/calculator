@@ -4,6 +4,10 @@
 
     
 }
+#container {
+    padding:0 5%;
+}
+
 /* link que ainda não foi visitado */
 a#AC:link, a#AC:visited, a#AC:hover, a#AC:active {
     color:black;
