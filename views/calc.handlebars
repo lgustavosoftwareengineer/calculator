@@ -1,0 +1,56 @@
+<div class="mt-4">
+    <form name="calc" action="/calculated" method="POST">
+        
+        <div class="container">
+        <h1 class="display-3 text-center"></h1>
+        </div>
+        <div class="card text-center">
+            <div class="card-header">Helloo! Be welcome to my calculator and first project!</div>
+            <div class="card-body">
+                <div class="card-title">My GitHub</div>
+                 <a class="" href="https://github.com/tonicprism">
+                    <img width="30px" class="" src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="">
+                </a>  
+            </div>
+        </div>
+        <!--Test-->
+        <div class="grid">
+            
+            <input type="text" name="values" value="{{response}}" onfocus="this.value = ''" id="values" class="output">
+    
+            
+            <a href="/cleaning" id="AC" class="bigger btns">
+            <p class="text-center pt-4">AC</p> 
+            </a>
+            
+            
+            <input type="button" value="DEL" class="btns" onclick="delet()">
+
+            <input type="button" value="/" class="btns" onclick="botao( value )">
+            <input type="button" value="1" class="btns" onclick="botao( value )">
+            <input type="button" value="2" class="btns" onclick="botao( value )">          
+            <input type="button" value="3" class="btns" onclick="botao( value )">
+            
+
+            <input type="button" value="*" class="btns" onclick="botao( value )">
+            <input type="button" value="4" class="btns" onclick="botao( value )">
+            <input type="button" value="5" class="btns" onclick="botao( value )">          
+            <input type="button" value="6" class="btns" onclick="botao( value )">
+            
+            <input type="button" value="+" class="btns" onclick="botao( value )"> 
+            <input type="button" value="7" class="btns" onclick="botao( value )">
+            <input type="button" value="8" class="btns" onclick="botao( value )">          
+            <input type="button" value="9" class="btns" onclick="botao( value )">
+
+            
+            <input type="button" value="-" class="btns" onclick="botao( value )">
+            <input type="button" value="." class="btns" onclick="botao( value )">
+            <input type="button" value="0" class="btns" onclick="botao( value )">      
+            <input type="submit" value="=" name="send" class="bigger btns">
+        </div>
+        
+        
+       
+    </form>
+
+</div>
